@@ -11,7 +11,7 @@ type ChatMessage = {
     content: string;
     };
 
-    const API_URL = "http://localhost:8000/ask";
+    const API_URL = "https://autoplastic-mario-peakless.ngrok-free.dev";
 
     export default function Page1() {
     const searchParams = useSearchParams();
