@@ -1,9 +1,11 @@
-import { AnimatedAIChat } from "@/components/ui/animated-ai-chat";
+import { PromptBoxDemo } from "@/components/chat_front";
+
+
 
 export default function Home() {
   return (
-    <div className="flex w-screen min-h-screen overflow-x-hidden">
-      <AnimatedAIChat />
+    <div className="h-dvh w-screen">
+      <PromptBoxDemo/>
     </div>
   );
 }

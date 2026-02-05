@@ -44,6 +44,18 @@
   --radius-2xl: calc(var(--radius) + 8px);
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
+  --animate-fade-scale: fade-scale 0.2s ease-out;
+  --radius: var(----radius);
+  @keyframes fade-scale {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%) scale(0.95);
+    }
+  100% {
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+    }
+  }
 }
 
 :root {
